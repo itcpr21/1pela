@@ -26,7 +26,7 @@ String pw = new String(pswfd.getPassword());
 int x = log.Enter(un, pw);
 if(x==1){ name = log.name;
 this.setVisible(false);
-
+new home(name).setVisible(true); 
     
 }else{
     JOptionPane.showMessageDialog(rootPane, "Account is Invalid!","Message",JOptionPane.ERROR_MESSAGE);

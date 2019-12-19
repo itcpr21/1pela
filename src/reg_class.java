@@ -24,7 +24,7 @@ public class reg_class {
    String user = "root";
    String pass ="";
    
-public int register(String firstname, String lastname, String username, String password ){
+public int reg(String firstname, String lastname, String username, String password ){
        int res =0;
        try {
            Class.forName(forname);
